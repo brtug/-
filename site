@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Bertuğ</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0d0d0d;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: white;
+    }
+
+    .card {
+      background-color: #111;
+      padding: 40px 20px;
+      border-radius: 20px;
+      text-align: center;
+      width: 320px;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #222;
+      margin-bottom: 20px;
+    }
+
+    .username {
+      font-size: 26px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      font-family: 'Courier New', monospace;
+    }
+
+    .tagline {
+      font-size: 16px;
+      color: #aaa;
+      margin-bottom: 20px;
+    }
+
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .icons a img {
+      width: 32px;
+      height: 32px;
+      filter: brightness(0) invert(1);
+      transition: transform 0.2s ease;
+    }
+
+    .icons a:hover img {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="https://i.pinimg.com/736x/7c/d2/dd/7cd2dd43969c30cd2e9c3c81855e6a5e.jpg" alt="Profil Fotoğrafı" class="avatar">
+    <div class="username">bertuğ</div>
+    <div class="tagline">internetin loş tarafı</div>
+
+    <div class="icons">
+      <a href="https://www.snapchat.com/add/brtg1905416?share_id=P_WMcq-bDis&locale=tr-TR" target="_blank">
+        <img src="https://images.icon-icons.com/2428/PNG/512/snapchat_black_logo_icon_147080.png" alt="YouTube">
+      </a>
+      <a href="https://instagram.com/bertugefecelikk" target="_blank">
+        <img src="https://images.icon-icons.com/2428/PNG/512/instagram_black_logo_icon_147122.png" alt="Instagram">
+      </a> 
+      <a href="https://steamcommunity.com/id/Ka2nYeEast/" target="_blank">
+        <img src="https://images.icon-icons.com/2428/PNG/512/steam_black_logo_icon_147078.png" alt="Steam">
+      </a>
+      <a href="https://open.spotify.com/user/6ikiauf9pmnsanrhsjzsrobzu?si=29a944c3959d4be8" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174872.png" alt="Soundcloud">
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
